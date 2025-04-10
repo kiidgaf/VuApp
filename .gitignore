@@ -1,0 +1,23 @@
+# Gradle
+.gradle/
+build/
+*/build/
+!gradle-wrapper.jar
+
+# IntelliJ
+.idea/
+*.iml
+
+# Keystore files
+*.jks
+
+# Local configuration
+local.properties
+
+# Log/Crash files
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+
