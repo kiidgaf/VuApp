@@ -8,7 +8,7 @@ buildscript {
     repositories {
         google()
         mavenCentral()
-        maven { url = uri("https://jitpack.io") } // ✅ ADD THIS
+        maven { url = uri("https://jitpack.io") }
     }
     dependencies {
         classpath("com.google.dagger:hilt-android-gradle-plugin:2.48")

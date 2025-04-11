@@ -53,6 +53,26 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
+
+    testImplementation(libs.mockk)
+    testImplementation(libs.mockito.kotlin)
+    testImplementation(libs.mockito.core)
+    testImplementation(libs.coroutines.test)
+
+
+    testImplementation("com.squareup.okhttp3:okhttp:4.9.1")
+    testImplementation("com.squareup.okhttp3:mockwebserver:4.9.1")
+
+
+
+    testImplementation("org.mockito.kotlin:mockito-kotlin:5.2.1")
+    testImplementation("io.mockk:mockk:1.13.3")
+    testImplementation("org.junit.jupiter:junit-jupiter-api:5.7.1")
+    testImplementation("org.junit.jupiter:junit-jupiter-engine:5.7.1")
+    testImplementation("androidx.arch.core:core-testing:2.1.0") // For LiveData testing
+
+
+
     // Retrofit & Gson
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")

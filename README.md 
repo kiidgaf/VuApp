@@ -1,0 +1,68 @@
+# VuApp
+An Android application built with Kotlin, following clean architecture, Hilt for dependency injection, Retrofit for networking, and MVVM architecture.
+
+## Features
+
+-  Login screen with ViewModel & Repository
+-  Dashboard showing dynamic data from a REST API
+-  Detail screen with full information display
+-  Navigation between screens
+-  Hilt for dependency injection
+-  Retrofit for API integration
+-  Unit tests using JUnit, MockK, and Mockito
+
+##  Tech Stack
+
+| Category        | Library/Tool                      |
+|----------------|------------------------------------|
+| Language        | Kotlin                            |
+| Architecture    | MVVM, Clean Architecture           |
+| Dependency DI   | Hilt (Dagger)                     |
+| Networking      | Retrofit + Gson                   |
+| UI Components   | Material Design, RecyclerView     |
+| Testing         | JUnit, MockK, Mockito             |
+| Version Control | Git + GitHub                      |
+
+## ️ Project Structure
+
+app/
+├── di/                   # Dependency injection setup (Hilt modules)
+├── repository/           # Repositories for data logic
+├── viewmodel/            # ViewModels for Login and Dashboard
+├── api/                  # Retrofit API service
+├── model/                # Data models and wrappers
+├── ui/                   # Activities: LoginActivity, DashboardActivity, DetailsActivity
+├── res/                  # XML layouts, drawables, values
+└── AndroidManifest.xml   # App configuration and permissions
+
+
+##  Testing
+
+-  Unit tests implemented for `LoginViewModel` and `DashboardRepository`
+-  Test dependencies included:
+  - `junit`
+  - `mockk`
+  - `mockito-core`
+  - `kotlinx-coroutines-test`
+
+##  Setup Instructions
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/kiidgaf/VuApp.git
+
+2. Open the project in Android Studio
+
+3. Sync Gradle and run the app on an emulator or physical device
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Author
+Kipa Shakya
+GitHub Profile
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+This project was created as part of the NIT3213 - Android Application Development unit at Victoria University.
+
+
